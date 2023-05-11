@@ -21,7 +21,7 @@ class Products(models.Model):
         verbose_name= "Описание продукта"
     )
     product_photo = models.ImageField(
-        upload_to= 'product_images/',
+        upload_to= 'product_photo/',
         verbose_name="Фотография продукта"
     )
     price = models.PositiveBigIntegerField(

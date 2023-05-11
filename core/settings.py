@@ -38,10 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #apps
-    'apps.setting',
-    'apps.imageproducts',
-    'apps.products',
-    'apps.product_info',
+    'setting',
+    'product_photo',
+    'products',
+    'info_products',
 ]
 
 MIDDLEWARE = [

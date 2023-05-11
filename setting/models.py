@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Settings(models.Model):
+class Setting(models.Model):
     title = models.CharField(
         max_length=(255),
         verbose_name="Название сайта"

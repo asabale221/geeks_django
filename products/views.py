@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from apps.products.models import Products
-from apps.settings.models import Setting
+from products.models import Products
+from setting.models import Setting
 # Create your views here.
 def product_detail(request, id):
     setting = Setting.objects.latest('id')
